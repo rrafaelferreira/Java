@@ -1,5 +1,13 @@
 package br.com.avalicao.aluno.modelo;
 
-public class RespostaModelo {
-    
+import org.springframework.stereotype.Component;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Component
+@Getter
+@Setter
+public class RespostaModelo{
+    private String mensagem;
 }
